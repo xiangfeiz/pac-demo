@@ -8,7 +8,7 @@ metadata:
     pipelinesascode.tekton.dev/on-event: "[pull_request, push]"
 
     # Run only on the main branch
-    pipelinesascode.tekton.dev/on-target-branch: "[main]"
+    pipelinesascode.tekton.dev/on-target-branch: "[main, topic/*]"
 
     # Automatically pull and resolve the git-clone task from Artifact Hub
     pipelinesascode.tekton.dev/task: "git-clone"
