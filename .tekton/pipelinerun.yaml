@@ -78,6 +78,7 @@ spec:
     - name: source
       volumeClaimTemplate:
         spec:
+          storageClassName: worker-storagepolicy
           accessModes:
             - ReadWriteOnce
           resources:
