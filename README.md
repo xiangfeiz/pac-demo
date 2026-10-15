@@ -1,6 +1,5 @@
 # Pipelines-as-Code - Demo Repository
 
-
 a badly written hello world in Golang used for demo using [Pipelines-as-Code](https://pipelinesascode.com).
 Follow the [Getting Started Guide](https://pipelinesascode.com/docs/install/getting-started/) for Pipelines-as-Code and hopefully everything will make sense 💫
 
